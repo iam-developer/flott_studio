@@ -1,0 +1,439 @@
+
+
+@media screen and (max-width: 1300px) {
+    .website {
+        background-image: none;
+    }
+    .website__block {
+        width: 726px;
+        margin-left: 0;
+        margin: 0 auto;
+    }
+    .website__block:last-child {
+        padding: 30px 0 50px;
+    }
+    .website__item4 {
+        margin-left: 50px;
+    }
+    .sss {
+        padding-left: 0;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .menu {
+        display: none;
+    }
+    .menu__container {
+        flex-direction: column;
+        color: #fff;
+    }
+    .menu__item a {
+        color: #fff;
+        padding: 0;
+        font-size: 28px;
+    }
+    .menu__item .phone {
+        color: #fff;
+        font-size: 25px;
+    }
+    .menu__item {
+        margin: 20px 5px;
+    }
+    .menu__item span a {
+        font-size: 34px;
+        padding-top: 20px;
+    }
+    #menu__item span a:before {
+        top: 54px;
+        left: 5px;
+        width: 97%;
+        height: 20%;
+    }
+    .burger__menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .creator__img {
+        bottom: -320px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .header__btn__block {
+        position: absolute;
+        bottom: -740px;
+        left: 140px;
+    }
+    .footer__logo__img {
+        max-width: 70%;
+    }
+    .slide__image {
+        max-width: 50%;
+        height: 90px;
+    }
+    .slide__txt {
+        font-size: 14px;
+        width: auto;
+        line-height: 16px;
+        padding-top: 10px;
+    }
+    .get__price__btn {
+        padding: 30px 100px 30px 80px;
+    }
+    #header {
+        padding-bottom: 50px;
+    }
+    .header__txt {
+        padding-bottom: 20px;
+    }
+    .creator__img {
+        bottom: -6px;
+    }
+    .service_text {
+        padding: 100px 10px 0;
+        font-size: 27px;
+    }
+    .title {
+        font-size: 45px;
+    }
+    .txt {
+        padding: 6px 20px 0;
+    }
+}
+
+@media screen and (max-width: 836px) {
+    .website__block {
+        flex-direction: column;
+        width: auto;
+    }
+    .website__item4 {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .btn__photo {
+        position: relative;
+        left: 270px;
+        top: -70px;
+    }
+    .header__btn__block {
+        left: 56px;
+        bottom: -660px;
+    }
+    .header__content {
+        padding: 80px 0 120px;
+    }
+    .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .otzyvy__photo2 {
+        display: none;
+    }
+    .photo1 {
+        max-width: 100%;
+    }
+    .otzyvy__photo1 {
+        padding-bottom: 20px;
+    }
+    .otzyvy__title {
+        font-size: 40px;
+        line-height: 47px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .header__btn__block {
+        bottom: -650px;
+    }
+    .website__block:last-child {
+        padding-top: 0;
+    }
+    .ppp {
+        padding-top: 30px;
+    }
+    .kkk {
+        padding-bottom: 35px;
+    }
+    .zzz {
+        justify-content: space-around;
+    }
+    .website__title {
+        width: 260px;
+    }
+    .header__top {
+        padding: 10px;
+    }
+    .get__price__btn {
+        padding: 20px 60px 20px 50px;
+    }
+    .btn__photo {
+        left: -50px;
+        top: 5px;
+    }
+    .footer__txt {
+        display: none;
+    }
+    .footer__logo {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .ggg {
+        text-align: center;
+        line-height: 22px;
+        padding-bottom: 20px;
+    }
+    .footer__logo__img {
+        max-width: 70%;
+    }
+    .slide__image {
+        max-width: 40%;
+        height: 52px;
+    }
+    .slide__txt {
+        font-size: 12px;
+        width: auto;
+        line-height: 12px;
+        padding-top: 10px;
+    }
+    .slick-next:before {
+        padding: 2px 8px;
+        font-size: 25px;
+    }
+    .slick-prev:before {
+        padding: 2px 8px;
+        font-size: 25px;
+    }
+    .slider__container {
+        padding: 0 47px;
+    }
+    .close__menu__btn {
+        font-size: 30px;
+        padding-right: 25px;
+        top: -43px;
+    }
+    .menu__item a {
+        font-size: 20px;
+    }
+    .menu__item {
+        margin: 15px 5px;
+    }
+    .menu__left {
+        padding-top: 50px;
+    }
+    .menu__item span a {
+        font-size: 20px;
+    }
+    .menu__item .phone {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 542px) {
+    .btn__photo {
+        left: 230px;
+        top: -77px;
+    }
+}
+@media screen and (max-width: 530px) {
+    .btn__photo {
+        left: -84px;
+        top: -20px;
+    }
+    .get__price__btn {
+        font-size: 16px;
+    }
+    .header__btn__block {
+        bottom: -600px;
+    }
+    .serv{
+        width: 380px;
+    }
+    .sss {
+        padding-top: 40px;
+    }
+}
+@media screen and (max-width: 505px) {
+    .btn__photo {
+        left: 150px;
+        top: -110px;
+    }
+    .header__btn__block {
+        bottom: -665px;
+    }
+    .top__logo {
+        width: 82%;
+    }
+    .burger__line {
+        width: 45px;
+        height: 5px;
+        margin: 4px 0;
+    }
+    .service__img2 {
+        padding-left: 0;
+    }
+    #x {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        bottom: 0;
+        width: 120px;
+    }
+    .input__phone {
+        padding: 18px 50px;
+        font-size: 20px;
+    }
+    .call__btn {
+        padding: 18px 0;
+        width: 356px;
+        font-size: 20px;
+    }
+    .call__btn a {
+        padding: 0;
+    }
+    .callback__title {
+        font-size: 28px;
+    }
+    .creator__img {
+        bottom: -3px;
+    }
+    .title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .otzyvy__title {
+        font-size: 35px;
+        line-height: 40px;
+    }
+}
+@media screen and (max-width:430px) {
+    .website__title {
+        width: 180px;
+    }
+    .slide__image {
+        height: 44px;
+    }
+    .slick-next:before {
+        padding: 2px 6px;
+        font-size: 16px;
+    }
+    .slick-prev:before {
+        padding: 2px 6px;
+        font-size: 16px;
+    }
+    .title {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .header__btn__block {
+        bottom: -614px;
+    }
+}
+@media screen and (max-width:412px) {
+    .header__btn__block {
+        bottom: -580px;
+        left: 25px;
+    }
+    .serv {
+        width: 335px;
+    }
+    #services {
+        padding-top: 36px;
+    }    
+    .service_text {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .call__btn {
+        padding: 12px 0;
+        width: 292px;
+    }
+    .input__phone {
+        padding: 12px 18px;
+    }
+    .bbb {
+        position: relative;
+        left: -30px;
+    }
+}
+@media screen and (max-width:380px) {
+    .get__price__btn {
+        padding: 16px 40px 16px 40px;
+    }
+    .btn__photo {
+        left: 154px;
+        top: -90px;
+        width: 46%;
+    }
+    .title {
+        font-size: 30px;
+        line-height: 32px;
+    }    
+    .header__btn__block {
+        bottom: -512px;
+    }
+    .burger__line {
+        width: 45px;
+    }
+    .top__logo {
+        width: 80%;
+    }
+    .service__img2 {
+        max-width: 59%;
+    }
+    .mini__title {
+        font-size: 25px;
+    }
+    .service__img3 {
+        padding-left: 40px;
+        max-width: 78%;
+    }
+    .mmm {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 360px) {
+    .mini__title {
+        font-size: 21px;
+    }
+    .otzyvy__title {
+        font-size: 25px;
+        line-height: 28px;
+        padding: 30px 0 30px;
+    }
+}
+@media screen and (max-width:350px) {
+    .website__title {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .serv {
+        width: 240px;
+    }
+}
+@media screen and (max-width: 348px) {
+    .header__btn__block {
+        bottom: -488px;
+    }
+    .callback__title {
+        font-size: 25px;
+        line-height: 30px;
+    }    
+    .slide__txt {
+        font-family: none;
+        line-height: 11px;
+        font-weight: 600;
+        font-size: 9px;
+    }
+}
+@media screen and (max-width: 332px) {
+    .header__btn__block {
+        left: 18px;
+    }
+    .slide__image {
+        height: 36px;
+    }
+}
