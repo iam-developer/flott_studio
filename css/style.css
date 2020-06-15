@@ -264,7 +264,7 @@ section {
 .txt {
     font-size: 16px;
     color: #2e2e2e;
-    font-family: 'Monserrat-Regular', sans-serif;
+    font-family: 'Montserrat-Regular';
     line-height: 18px;
     padding-top: 6px;
 }
@@ -510,6 +510,7 @@ section {
     background-color: #dfdfdf;
     margin-bottom: 20px;
     padding: 10px 20px;
+    border-radius: 7px;
 }
 .list {
     z-index: -1;
