@@ -2,6 +2,7 @@
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 * {
     box-sizing: border-box;
@@ -225,15 +226,11 @@ section {
     font-size: 20px;
     font-family: 'Montserrat-Semibold';
     color: #fff;
-    padding: 30px 100px 30px 30px;
-    background: #b4ddb4;
-    background: -moz-linear-gradient(top,  #b4ddb4 0%, #52b152 32%, #52b152 32%, #52b152 40%, #14b146 84%, #14b146 94%, #83c783 100%, #002400 100%, #83c783 100%);
-    background: -webkit-linear-gradient(top,  #b4ddb4 0%,#52b152 32%,#52b152 32%,#52b152 40%,#14b146 84%,#14b146 94%,#83c783 100%,#002400 100%,#83c783 100%);
-    background: linear-gradient(to bottom,  #b4ddb4 0%,#52b152 32%,#52b152 32%,#52b152 40%,#14b146 84%,#14b146 94%,#83c783 100%,#002400 100%,#83c783 100%); 
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#83c783',GradientType=0 );
+    padding: 30px 100px 30px 60px;
     border-radius: 8px;
     transition: 0.4s;
-    box-shadow: 4px 4px 2px #059731;
+    box-shadow: 4px 4px 2px #059731, inset -1px -1px 10px #fff;
+    background: linear-gradient(to bottom, #45f197, #11ac40);
 }
 .get__price__btn:hover {
     color: #fff;
@@ -267,12 +264,11 @@ section {
 .txt {
     font-size: 16px;
     color: #2e2e2e;
-    font-family: 'Monserrat-Regular';
+    font-family: 'Monserrat-Regular', sans-serif;
     line-height: 18px;
     padding-top: 6px;
 }
 .services__border1 {
-    border: 1px solid #817e7e;
     border-radius: 4px;
     padding: 5px;
     box-shadow: 0 0 7px #817f7f;
@@ -337,7 +333,7 @@ section {
     color: #fff;
     font-family: 'Montserrat-SemiBold';
     padding: 20px 0;
-    width: 435px;
+    width: 446px;
     margin: 5px auto 40px;
     border-radius: 3px;
     box-shadow: inset 0 0 4px #fff, 0 8px 4px rgb(57, 129, 57);
@@ -348,7 +344,6 @@ section {
 }
 .call__btn a {
     color: #fff;
-    padding: 23px 108px;
 }
 .creator__img {
     position: relative;
@@ -371,6 +366,10 @@ section {
 .website_img3 {
     margin-right: 10px;
 }
+.website_img1 {
+    position: relative;
+    left: -30px;
+}
 .website__title {
     font-size: 25px;
     font-family: 'Gilroy-ExtraBold';
@@ -383,11 +382,26 @@ section {
     margin-left: 460px;
     padding-top: 65px;
 }
+.rrr {
+    width: 320px;
+    padding-right: 34px;
+    margin-right: 24px;
+}
+.bbb {
+    position: relative;
+    left: -50px;
+}
+.hhhh {
+    padding-left: 30px;
+}
 .website__block:last-child {
     padding: 30px 0;
 }
 .zzz {
     min-height: 180px;
+}
+.dd {
+    padding-left: 30px;
 }
 
 /* ================== SLIDER ================== */
@@ -412,6 +426,23 @@ section {
     outline: none;
     cursor: pointer;
 }
+.slick-dots li button:before {
+    border-radius: 50%;
+    width: 10px;
+    border: 1px solid #35d97a;
+    height: 10px;
+    opacity: 1;
+}
+.slick-dots {
+    bottom: -50px;
+}
+.slider__container{
+    margin-bottom: 70px;
+}
+.slick-dots li.slick-active button:before {
+    background-color: #35d97a;
+    opacity: 1;
+}
 .slick-prev:before {
     content: '<';
     background-color: #35d97a;
@@ -427,10 +458,19 @@ section {
     font-size: 30px;
 }
 .slick-prev {
-    left: -40px;
+    left: -35px;
+}
+.slick-next {
+    right: -25px;
 }
 .vvv {
     padding-top: 10px;
+}
+.aa {
+    padding-left: 60px;
+}
+.k {
+    padding-left: 40px;
 }
 
 /* =============== OTZYVY ================== */
@@ -445,21 +485,46 @@ section {
     padding: 50px 0 30px;
     width: 700px;
 }
-.otzyvy__photos {
+.director {
+    font-size: 20px;
+    font-family: 'Gilroy-ExtraBold';
+    line-height: 22px;
+    padding-top: 20px;
+}
+.director__txt {
+    font-size: 18px;
+    font-family: 'Gilroy-Light';
+    padding-top: 26px;
+    line-height: 22px;
+}
+.otzyv__back {
     display: flex;
+    justify-content: center;
     align-items: center;
+    z-index: 99;
 }
-.otzyvy__photo1 {
-    z-index: 1;
+.color {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dfdfdf;
+    margin-bottom: 20px;
+    padding: 10px 20px;
 }
-.otzyvy__photo2 {
+.list {
+    z-index: -1;
+}
+.page__photo {
     position: relative;
+    max-width: 240%;
+    right: 300px;
+    top: -20px;
 }
-.photo1 {
-    max-width: 140%;
+.creator__woman {
+    max-width: 50%;
 }
-.photo2 {
-    max-width: 118%;
+.dff {
+    text-align: center;
 }
 
 /* ============== FOOTER ============= */

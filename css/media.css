@@ -1,8 +1,13 @@
 
-
 @media screen and (max-width: 1300px) {
     .website {
         background-image: none;
+    }
+    .hhhh {
+        padding-left: 0;
+    }
+    .www {
+        padding-left: 20px;
     }
     .website__block {
         width: 726px;
@@ -23,9 +28,16 @@
     .menu {
         display: none;
     }
+    .page__photo {
+        top: 22px;
+        right: 260px;
+    }
     .menu__container {
         flex-direction: column;
         color: #fff;
+    }
+    .header__btn__block {
+        padding-top: 50px;
     }
     .menu__item a {
         color: #fff;
@@ -82,6 +94,28 @@
     .get__price__btn {
         padding: 30px 100px 30px 80px;
     }
+    .list {
+        display: none;
+    }
+    .just__list {
+        max-width: 100%;
+        padding: 20px 0 0;
+    }
+    .color {
+        flex-direction: column;
+    }
+    .dff {
+        display: flex;
+        align-items: center;
+        padding: 20px 0 0;
+        order: -1;
+    }
+    .director {
+        padding-top: 0;
+    }
+    .creator__woman {
+        max-width: 100%;
+    }
     #header {
         padding-bottom: 50px;
     }
@@ -101,6 +135,9 @@
     .txt {
         padding: 6px 20px 0;
     }
+    .hhhh {
+        padding-left: 0;
+    }
 }
 
 @media screen and (max-width: 836px) {
@@ -108,8 +145,32 @@
         flex-direction: column;
         width: auto;
     }
+    .rrr {
+        width: auto;
+    }
+    .tt {
+        padding-left: 0;
+    }
     .website__item4 {
         margin-left: 0;
+    }
+    .hhhh {
+        padding-left: 20px;
+    }    
+    .ff {
+        padding-left: 20px;
+    }
+    .website__title {
+        width: 255px;
+    }
+    .bbb {
+        left: 0;
+    }
+    .aa {
+        padding-left: 70px;
+    }
+    .dd {
+        padding-left: 25px;
     }
 }
 
@@ -118,6 +179,9 @@
         position: relative;
         left: 270px;
         top: -70px;
+    }
+    .website_img1 {
+        left: -10px;
     }
     .header__btn__block {
         left: 56px;
@@ -130,15 +194,6 @@
         font-size: 40px;
         line-height: 50px;
     }
-    .otzyvy__photo2 {
-        display: none;
-    }
-    .photo1 {
-        max-width: 100%;
-    }
-    .otzyvy__photo1 {
-        padding-bottom: 20px;
-    }
     .otzyvy__title {
         font-size: 40px;
         line-height: 47px;
@@ -149,6 +204,15 @@
 @media screen and (max-width:576px) {
     .header__btn__block {
         bottom: -650px;
+    }
+    .website_img1 {
+        left: 10px;
+    }
+    .aa {
+        padding-left: 10px;
+    }
+    .dd {
+        padding-left: 0;
     }
     .website__block:last-child {
         padding-top: 0;
@@ -161,9 +225,6 @@
     }
     .zzz {
         justify-content: space-around;
-    }
-    .website__title {
-        width: 260px;
     }
     .header__top {
         padding: 10px;
@@ -231,6 +292,9 @@
     .menu__item .phone {
         font-size: 18px;
     }
+    .bbb {
+        left: 35px;
+    }
 }
 @media screen and (max-width: 542px) {
     .btn__photo {
@@ -282,18 +346,6 @@
         bottom: 0;
         width: 120px;
     }
-    .input__phone {
-        padding: 18px 50px;
-        font-size: 20px;
-    }
-    .call__btn {
-        padding: 18px 0;
-        width: 356px;
-        font-size: 20px;
-    }
-    .call__btn a {
-        padding: 0;
-    }
     .callback__title {
         font-size: 28px;
     }
@@ -309,10 +361,34 @@
         line-height: 40px;
     }
 }
-@media screen and (max-width:430px) {
-    .website__title {
-        width: 180px;
+@media screen and (max-width: 489px) {
+    .creator__woman  {
+        max-width: 48%;
     }
+    .director__txt {
+        font-size: 16px;
+        font-family: 'Gilroy-Light';
+        padding-top: 15px;
+        line-height: 18px;
+    }
+    .director {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 460px) {
+    .mmm {
+        max-width: 35%;
+    }
+}
+@media screen and (max-width:475px) {
+    .input__phone {
+        width: 400px;
+    }
+    .call__btn {
+        width: 400px;
+    }
+}
+@media screen and (max-width:430px) {
     .slide__image {
         height: 44px;
     }
@@ -331,6 +407,24 @@
     .header__btn__block {
         bottom: -614px;
     }
+    .input__phone {
+        width: 350px;
+    }
+    .call__btn {
+        width: 350px;
+    }
+    .creator__woman {
+        height: 120px;
+    }
+    .director {
+        font-size: 15px;
+        line-height: 16px;
+    }
+    .director__txt {
+        font-size: 13px;
+        padding-top: 9px;
+        line-height: 16px;
+    }
 }
 @media screen and (max-width:412px) {
     .header__btn__block {
@@ -347,13 +441,6 @@
         font-size: 24px;
         line-height: 30px;
     }
-    .call__btn {
-        padding: 12px 0;
-        width: 292px;
-    }
-    .input__phone {
-        padding: 12px 18px;
-    }
     .bbb {
         position: relative;
         left: -30px;
@@ -367,6 +454,14 @@
         left: 154px;
         top: -90px;
         width: 46%;
+    }
+    .input__phone {
+        width: 300px;
+        padding:16px 0;
+    }
+    .call__btn {
+        width: 300px;
+        padding: 16px 0;
     }
     .title {
         font-size: 30px;
@@ -435,5 +530,11 @@
     }
     .slide__image {
         height: 36px;
+    }
+    .input__phone {
+        width: 280px;
+    }
+    .call__btn {
+        width: 280px;
     }
 }
